@@ -673,6 +673,21 @@ ul.slick-dots {
   margin-top: 140px;
 }
 
+.service-border{
+  border: 2px solid #f7f7f7;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+}
+
+.service-image {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+  object-fit: cover;
+}
+
 .service-item img {
   width: 100%;
   overflow: hidden;
