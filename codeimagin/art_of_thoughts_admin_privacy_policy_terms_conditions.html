@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: #fff;
+            font-family: 'Times New Roman', Times, serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+
+        header {
+            text-align: center;
+            background-color: #fff;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            color: #000;
+            font-size: 11vh;
+        }
+
+        p {
+            color: #555;
+        }
+    </style>
+    <title>Art of Thoughts</title>
+</head>
+<body>
+
+    <header>
+        <h1>Art of Thoughts</h1>
+    </header>
+    <p style="font-size: 20px; text-align: center;">(Admin Application)</p>
+    <section>
+        <h2>Privacy Policy</h2>
+        <p id="result"></p>
+        <p>Welcome to the Art of Thoughts Admin App. This Privacy Policy outlines how we collect, use, disclose, and safeguard your information when you use our application. By using the Art of Thoughts Admin App, you agree to the practices described in this policy.</p>
+
+        <h3>Information We Collect</h3>
+            <ul>
+                <li><h4>Account Information:</h4></li>
+                <p>To use the Art of Thoughts Admin App, you may need to create an account. We collect and store information such as your name, email address, and profile details.</p>
+
+                <li><h4>Usage Data:</h4></li>
+                <p>We collect information about how you interact with the app, including log data, device information, and actions taken within the application.</p>
+
+                <li><h4>Content:</h4></li>
+                <p>As an admin, you may upload and manage content on the Art of Thoughts platform. This may include thoughts, images, and other materials.</p>
+            </ul>
+        
+        <h3>How We Use Information</h3>
+            <ul>
+                <b>We use the collected information to:</b>
+                <ul>
+                    <li>Provide, maintain, and improve the Art of Thoughts Admin App.</li>
+                    <li>Respond to your inquiries, comments, or concerns.</li>
+                    <li>Analyze usage patterns to enhance user experience.</li>
+                    <li>Comply with legal obligations.</li>
+                </ul>
+            </ul>
+
+        <h3>Information Sharing:</h3>
+        <p>We do not sell, trade, or otherwise transfer your information to third parties. However, we may share information with trusted service providers for app-related purposes.</p>
+        
+        <h3>Security</h3>
+        <p>We prioritize the security of your information and employ industry-standard measures to protect against unauthorized access or disclosure.</p>
+
+        <h3>Changes to This Privacy Policy</h3>
+        <p>We may update this Privacy Policy from time to time. We will notify you of any significant changes through the app or other communication channels.</p>
+
+        <br>
+        <h2>Terms &amp; Conditions</h2>
+
+        <h3>Acceptance of Terms:</h3>
+        <p>By using the Art of Thoughts Admin App, you agree to these Terms and Conditions. If you do not agree, please refrain from using the application.</p>
+
+        <h3>Admin User Responsibilities:</h3>
+        <p>As an admin, you are responsible for maintaining the confidentiality of your account information and for all activities that occur under your account.</p>
+
+        <h3>Content Management:</h3>
+        <p>You have the responsibility to ensure that the content you upload and manage complies with applicable laws and regulations. We reserve the right to remove any content that violates these terms.</p>
+
+        <h3>Termination:</h3>
+        <p>We reserve the right to terminate or suspend your account if you violate these Terms and Conditions.</p>
+
+        <h3>Governing Law:</h3>
+        <p>These terms are governed by and construed in accordance with the laws of [Jurisdiction].</p>
+
+        <h3>Contact Us</h3>
+        <p>If you have any questions or concerns about our Privacy Policy or Terms and Conditions, please contact us at <a href="https://www.codeimagin.com/" target="_blank">CodeImagin</a> or <a href="mailto:codeimagin@gmail.com" target="_blank">codeimagin@gmail.com</a>.</p>
+        
+        <p>By using the Art of Thoughts User App, users acknowledge their understanding and acceptance of the provided Privacy Policy and Terms and Conditions.</p>
+    </section>
+    <script>
+        // Get the current date
+        var currentDate = new Date();
+
+        // Subtract 1 from the month
+        currentDate.setMonth(currentDate.getMonth() - 1);
+
+        // Format the date for display
+        var formattedDate = currentDate.toLocaleDateString('en-US', {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric'
+        });
+
+        // Update the content of the <p> tag
+        document.getElementById('result').textContent = 'Last Updated: ' + formattedDate;
+    </script>
+</body>
+</html>

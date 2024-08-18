@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: #fff;
+            font-family: 'Times New Roman', Times, serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+
+        header {
+            text-align: center;
+            background-color: #fff;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            color: #000;
+            font-size: 11vh;
+        }
+
+        p {
+            color: #555;
+        }
+    </style>
+    <title>Art of Thoughts</title>
+</head>
+<body>
+
+    <header>
+        <h1 id="header">Art of Thoughts</h1>
+    </header>
+
+    <section>
+        <h2>Privacy Policy</h2>
+        <p id="result"></p>
+        <p>Welcome to the "Art of Thoughts" mobile application. This Privacy Policy outlines the information practices employed by the App, emphasizing our commitment to user privacy and data security.</p>
+
+        <h3>Information We Collect</h3>
+            <ul>
+                <li><h4>Personal Information:</h4></li>
+                <p>The App may collect user data, including but not limited to names, email addresses, and profile pictures, to enhance user identification and customization.</p>
+
+                <li><h4>Usage Data:</h4></li>
+                <p>We gather insights into user interactions within the App, encompassing preferences, content creation, and social engagement. This data aids in improving user experiences.</p>
+
+                <li><h4>Permissions:</h4></li>
+                <p>The application requires internet access to provide its core functionality.</p>
+                <p>The application may request and utilize permissions to read and write external storage for features related to data storage and retrieval.</p>
+            </ul>
+        
+        <h3>How We Use Information</h3>
+            <ul>
+                <li><h4>Personalization:</h4></li>
+                <p>The collected data is utilized to tailor user experiences, delivering personalized content and features aligned with individual preferences.</p>
+                
+                <li><h4>Communication:</h4></li>
+                <p>Users may receive updates, notifications, and promotional materials related to the App via the contact information provided. Opt-out options are available.</p>
+            </ul>
+
+        <h3>Data Security:</h3>
+        <p>We prioritize the security of user data and employ state-of-the-art measures to prevent unauthorized access, disclosure, alteration, or destruction.</p>
+        
+        <h3>Sharing of Information:</h3>
+        <p>While user-generated content, such as thoughts and images, may be shared within the App, personal contact information is not disclosed without explicit user consent.</p>
+
+        <h3>Third-Party Services:</h3>
+        <p>The App may integrate third-party services for analytics, advertising, and social media connectivity. Users are encouraged to review the privacy policies of these services.</p>
+
+        <h3>User Controls:</h3>
+        <p>Users retain the right to review, edit, or delete their personal information within the App. Opt-out options for communications are provided for user control.</p>
+        
+        <h3>Cookies and Tracking:</h3>
+        <p>The App may leverage cookies and similar tracking technologies to enhance user experiences. Users can manage cookie preferences through their device settings.</p>
+
+        <h3>Policy Updates:</h3>
+        <p>This Privacy Policy is subject to periodic updates. Users will be notified of any substantial changes to ensure transparency and awareness.</p>
+
+        <br>
+        <h2>Terms &amp; Conditions</h2>
+
+        <p id="result"></p>
+        <p>Welcome to the "Art of Thoughts" mobile application. By accessing and using the App, you agree to abide by the following Terms and Conditions.</p>
+
+        <h3>Acceptance of Terms:</h3>
+        <p>Use of the App constitutes acceptance of these Terms and Conditions. If you do not agree, please refrain from using the App.</p>
+
+        <h3>User Conduct:</h3>
+        <p>Users are responsible for their actions within the App. Posting offensive or inappropriate content is strictly prohibited.</p>
+
+        <h3>Intellectual Property:</h3>
+        <p>All content created and shared within the App remains the intellectual property of the respective users. Unauthorized use or distribution is prohibited.</p>
+
+        <h3>Termination:</h3>
+        <p>The App reserves the right to terminate user accounts for violations of these terms without prior notice.</p>
+
+        <h3>Disclaimer of Warranty:</h3>
+        <p>The App is provided "as is," and we make no warranties regarding its availability, accuracy, or functionality.</p>
+
+        <h3>Limitation of Liability:</h3>
+        <p>The App and its developers are not liable for any direct, indirect, or incidental damages arising from the use of the App.</p>
+
+        <h3>Governing Law:</h3>
+        <p>These terms are governed by and construed in accordance with the laws of [Jurisdiction].</p>
+
+        <h3>Contact Us</h3>
+        <p>If you have any questions or concerns about our Privacy Policy or Terms and Conditions, please contact us at <a href="https://www.codeimagin.com/" target="_blank">CodeImagin</a> or <a href="mailto:codeimagin@gmail.com" target="_blank">codeimagin@gmail.com</a>.</p>
+        
+        <p>By using the Art of Thoughts User App, users acknowledge their understanding and acceptance of the provided Privacy Policy and Terms and Conditions.</p>
+    </section>
+    <script>
+        // Get the current date
+        var currentDate = new Date();
+
+        // Subtract 1 from the month
+        currentDate.setMonth(currentDate.getMonth() - 1);
+
+        // Format the date for display
+        var formattedDate = currentDate.toLocaleDateString('en-US', {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric'
+        });
+
+        // Update the content of the <p> tag
+        document.getElementById('result').textContent = 'Last Updated: ' + formattedDate;
+    </script>
+</body>
+</html>
