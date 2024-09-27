@@ -10042,3 +10042,13 @@ html {
 .text-style-bold{
   font-weight: 600;
 }
+.transition-element {
+  opacity: 0; /* Initially hidden */
+  transform: translateY(20px); /* Move elements down */
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out; /* Transition for opacity and position */
+}
+
+.transition-element.show {
+  opacity: 1; /* Fully visible */
+  transform: translateY(0); /* Move back to original position */
+}
